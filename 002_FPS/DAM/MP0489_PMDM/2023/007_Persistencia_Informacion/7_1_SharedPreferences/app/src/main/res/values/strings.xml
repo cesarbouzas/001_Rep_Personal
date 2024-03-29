@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">7_1Shared_preferences</string>
+    <string name="txt_label">Introduce tu nombre</string>
+    <string name="txt_hint">nombre</string>
+    <string name="txt_btn">Registrar</string>
+</resources>

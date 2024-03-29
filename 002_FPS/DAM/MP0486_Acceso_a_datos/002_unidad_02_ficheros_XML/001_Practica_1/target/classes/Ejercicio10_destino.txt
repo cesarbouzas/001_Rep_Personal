@@ -1,0 +1,35 @@
+$Recycle.Bin                            -----> Directorio
+$WinREAgent                             -----> Directorio
+acadminidump.dmp                        -----> 15627153408
+adobeTemp                               -----> Directorio
+android                                 -----> Directorio
+Archivos de programa                    -----> Directorio
+Autodesk                                -----> Directorio
+bootmgr                                 -----> 15627153408
+BOOTNXT                                 -----> 15627153408
+bootTel.dat                             -----> 15627153408
+composer                                -----> Directorio
+Config.Msi                              -----> Directorio
+datos                                   -----> Directorio
+Documents and Settings                  -----> Directorio
+DumpStack.log                           -----> 15627153408
+DumpStack.log.tmp                       -----> 15627153408
+hiberfil.sys                            -----> 15627153408
+install                                 -----> Directorio
+Intel                                   -----> Directorio
+MSOCache                                -----> Directorio
+MyLogrFile.log                          -----> 15627153408
+OneDriveTemp                            -----> Directorio
+pagefile.sys                            -----> 15627153408
+PerfLogs                                -----> Directorio
+Program Files                           -----> Directorio
+Program Files (x86)                     -----> Directorio
+ProgramData                             -----> Directorio
+Python311                               -----> Directorio
+Recovery                                -----> Directorio
+SQL2022                                 -----> Directorio
+swapfile.sys                            -----> 15627153408
+System Volume Information               -----> Directorio
+Users                                   -----> Directorio
+Win                                     -----> Directorio
+Windows                                 -----> Directorio

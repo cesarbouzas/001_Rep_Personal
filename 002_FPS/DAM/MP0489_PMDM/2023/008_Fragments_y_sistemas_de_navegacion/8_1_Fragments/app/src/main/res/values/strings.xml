@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">8_1_Fragments</string>
+    <string name="incial_fragment">Fragmento inicial</string>
+    <string name="segundo_fragment">Fragmento Segundo</string>
+    <string name="tercer_fragment">Fragmento Tercero</string>
+</resources>

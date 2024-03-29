@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 19
+Implementation-Title: tunelPostgresqlApiRest-boot
+Implementation-Version: 1.0.0-SNAPSHOT
+Implementation-Vendor: Imatia Innovation
+Main-Class: com.ontimize.tunelPostgresqlApiRest.ServerApplication
+Created-By: Maven Integration for Eclipse
+

@@ -1,0 +1,2 @@
+componentes.ComponenteRelojBean$DefinirAlarmaListener
+componentes.ComponenteRelojBean

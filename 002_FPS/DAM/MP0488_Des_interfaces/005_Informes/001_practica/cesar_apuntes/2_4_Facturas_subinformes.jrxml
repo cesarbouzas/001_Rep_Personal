@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.0.final using JasperReports Library version 6.20.0-2bc7ab61c56f459e8176eb05c7705e145cd400ad  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="02d2595f-c466-4032-962b-e2e3d7046907">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="fabica"/>
+	<property name="com.jaspersoft.studio.property.dataset.dialog.DatasetDialog.sash.w1" value="647"/>
+	<property name="com.jaspersoft.studio.property.dataset.dialog.DatasetDialog.sash.w2" value="353"/>
+	<queryString language="SQL">
+		<![CDATA[select c.ID_Cliente,Nombre,Direccion,ID_Pedido from clientes c,pedidos p
+ where c.ID_Cliente=p.ID_Cliente 
+order by c.ID_Cliente]]>
+	</queryString>
+	<field name="ID_Cliente" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="ID_Cliente"/>
+		<property name="com.jaspersoft.studio.field.label" value="ID_Cliente"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="clientes"/>
+	</field>
+	<field name="Nombre" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="Nombre"/>
+		<property name="com.jaspersoft.studio.field.label" value="Nombre"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="clientes"/>
+	</field>
+	<field name="Direccion" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="Direccion"/>
+		<property name="com.jaspersoft.studio.field.label" value="Direccion"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="clientes"/>
+	</field>
+	<field name="ID_Pedido" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="ID_Pedido"/>
+		<property name="com.jaspersoft.studio.field.label" value="ID_Pedido"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="pedidos"/>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="143" y="34" width="287" height="30" uuid="e0abdbd6-cc1a-460e-8543-e1b3f2ea4c7a"/>
+				<textElement textAlignment="Center">
+					<font size="21" isBold="true"/>
+				</textElement>
+				<text><![CDATA[LISTADO DE FACTURAS ]]></text>
+			</staticText>
+		</band>
+	</title>
+	<columnHeader>
+		<band height="26" splitType="Stretch">
+			<staticText>
+				<reportElement x="-16" y="0" width="100" height="13" uuid="2941deb2-3451-4f1b-8a40-fabcee5cd648">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="1d7c6a6d-1a41-4266-9dfe-2d869067e9c1"/>
+				</reportElement>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[ID_Cliente]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="84" y="0" width="168" height="13" uuid="ebde1a60-8648-41d4-82fd-8023c9f7b5c7">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="ebbc7c6b-8046-40e8-a72a-6d42b2192c37"/>
+				</reportElement>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[Nombre]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="253" y="0" width="174" height="13" uuid="57d02ab4-4b33-4cae-bd9f-ab339c8dbaac">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="1ba93133-61de-4d13-aa4a-20e97f5c3987"/>
+				</reportElement>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[Direccion]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="427" y="0" width="84" height="13" uuid="cef82ed6-7737-42ec-b404-a3bfeb50c30d">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="3f44f411-6448-4562-b451-0c1d68d055fe"/>
+				</reportElement>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[ID_Pedido]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="50" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="100" height="30" uuid="7592d133-f843-44a1-9487-8ae1c71245aa">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="1d7c6a6d-1a41-4266-9dfe-2d869067e9c1"/>
+				</reportElement>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{ID_Cliente}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="100" y="0" width="168" height="30" uuid="6368f9bc-60bf-4cc5-a7d2-18f7401c155e">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="ebbc7c6b-8046-40e8-a72a-6d42b2192c37"/>
+				</reportElement>
+				<textElement textAlignment="Left"/>
+				<textFieldExpression><![CDATA[$F{Nombre}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="255" y="0" width="170" height="30" uuid="1e046a87-de2d-4b84-aa19-94d002b49fcf">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="1ba93133-61de-4d13-aa4a-20e97f5c3987"/>
+				</reportElement>
+				<textElement textAlignment="Left"/>
+				<textFieldExpression><![CDATA[$F{Direccion}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="425" y="0" width="90" height="30" uuid="f4a87fba-b26c-4c13-a63e-83c3c24195e0">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="3f44f411-6448-4562-b451-0c1d68d055fe"/>
+				</reportElement>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{ID_Pedido}]]></textFieldExpression>
+			</textField>
+			<subreport>
+				<reportElement stretchType="ContainerHeight" x="0" y="30" width="543" height="20" uuid="471efc55-547a-47e7-b1de-7cd9f33d0fbe"/>
+				<subreportParameter name="id_pedido_input">
+					<subreportParameterExpression><![CDATA[$F{ID_Pedido}]]></subreportParameterExpression>
+				</subreportParameter>
+				<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+				<subreportExpression><![CDATA["2_4_1detalle_pedido_secundario.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+	</detail>
+</jasperReport>

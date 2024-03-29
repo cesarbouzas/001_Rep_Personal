@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">IntentSencillo</string>
+    <string name="primerActivity">IR A LA SEGUNDA VENTANA</string>
+    <string name="btn_finalizar">FINALIZAR</string>
+</resources>

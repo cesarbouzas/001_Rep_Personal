@@ -1,0 +1,252 @@
+Tue Nov 21 15:17:55 CET 2023
+$Recycle.Bin                            -----> Directorio
+$WinREAgent                             -----> Directorio
+acadminidump.dmp                        -----> 15702159360
+adobeTemp                               -----> Directorio
+android                                 -----> Directorio
+Archivos de programa                    -----> Directorio
+Autodesk                                -----> Directorio
+bootmgr                                 -----> 15702159360
+BOOTNXT                                 -----> 15702159360
+bootTel.dat                             -----> 15702159360
+composer                                -----> Directorio
+Config.Msi                              -----> Directorio
+datos                                   -----> Directorio
+Documents and Settings                  -----> Directorio
+DumpStack.log                           -----> 15702159360
+DumpStack.log.tmp                       -----> 15702159360
+hiberfil.sys                            -----> 15702159360
+install                                 -----> Directorio
+Intel                                   -----> Directorio
+MSOCache                                -----> Directorio
+MyLogrFile.log                          -----> 15702159360
+OneDriveTemp                            -----> Directorio
+pagefile.sys                            -----> 15702159360
+PerfLogs                                -----> Directorio
+Program Files                           -----> Directorio
+Program Files (x86)                     -----> Directorio
+ProgramData                             -----> Directorio
+Python311                               -----> Directorio
+Recovery                                -----> Directorio
+SQL2022                                 -----> Directorio
+swapfile.sys                            -----> 15702159360
+System Volume Information               -----> Directorio
+Users                                   -----> Directorio
+Win                                     -----> Directorio
+Windows                                 -----> Directorio
+Tue Nov 21 15:43:11 CET 2023
+$Recycle.Bin                            -----> Directorio
+$WinREAgent                             -----> Directorio
+acadminidump.dmp                        -----> 15650209792
+adobeTemp                               -----> Directorio
+android                                 -----> Directorio
+Archivos de programa                    -----> Directorio
+Autodesk                                -----> Directorio
+bootmgr                                 -----> 15650209792
+BOOTNXT                                 -----> 15650209792
+bootTel.dat                             -----> 15650209792
+composer                                -----> Directorio
+Config.Msi                              -----> Directorio
+datos                                   -----> Directorio
+Documents and Settings                  -----> Directorio
+DumpStack.log                           -----> 15650209792
+DumpStack.log.tmp                       -----> 15650209792
+hiberfil.sys                            -----> 15650209792
+install                                 -----> Directorio
+Intel                                   -----> Directorio
+MSOCache                                -----> Directorio
+MyLogrFile.log                          -----> 15650209792
+OneDriveTemp                            -----> Directorio
+pagefile.sys                            -----> 15650209792
+PerfLogs                                -----> Directorio
+Program Files                           -----> Directorio
+Program Files (x86)                     -----> Directorio
+ProgramData                             -----> Directorio
+Python311                               -----> Directorio
+Recovery                                -----> Directorio
+SQL2022                                 -----> Directorio
+swapfile.sys                            -----> 15650209792
+System Volume Information               -----> Directorio
+Users                                   -----> Directorio
+Win                                     -----> Directorio
+Windows                                 -----> Directorio
+Tue Nov 21 15:59:15 CET 2023
+$Recycle.Bin                            -----> Directorio
+$WinREAgent                             -----> Directorio
+acadminidump.dmp                        -----> 15627153408
+adobeTemp                               -----> Directorio
+android                                 -----> Directorio
+Archivos de programa                    -----> Directorio
+Autodesk                                -----> Directorio
+bootmgr                                 -----> 15627153408
+BOOTNXT                                 -----> 15627153408
+bootTel.dat                             -----> 15627153408
+composer                                -----> Directorio
+Config.Msi                              -----> Directorio
+datos                                   -----> Directorio
+Documents and Settings                  -----> Directorio
+DumpStack.log                           -----> 15627153408
+DumpStack.log.tmp                       -----> 15627153408
+hiberfil.sys                            -----> 15627153408
+install                                 -----> Directorio
+Intel                                   -----> Directorio
+MSOCache                                -----> Directorio
+MyLogrFile.log                          -----> 15627153408
+OneDriveTemp                            -----> Directorio
+pagefile.sys                            -----> 15627153408
+PerfLogs                                -----> Directorio
+Program Files                           -----> Directorio
+Program Files (x86)                     -----> Directorio
+ProgramData                             -----> Directorio
+Python311                               -----> Directorio
+Recovery                                -----> Directorio
+SQL2022                                 -----> Directorio
+swapfile.sys                            -----> 15627153408
+System Volume Information               -----> Directorio
+Users                                   -----> Directorio
+Win                                     -----> Directorio
+Windows                                 -----> Directorio
+Tue Nov 21 16:53:07 CET 2023
+$Recycle.Bin                            -----> Directorio
+$WinREAgent                             -----> Directorio
+acadminidump.dmp                        -----> 15582220288
+adobeTemp                               -----> Directorio
+android                                 -----> Directorio
+Archivos de programa                    -----> Directorio
+Autodesk                                -----> Directorio
+bootmgr                                 -----> 15582220288
+BOOTNXT                                 -----> 15582220288
+bootTel.dat                             -----> 15582220288
+composer                                -----> Directorio
+Config.Msi                              -----> Directorio
+datos                                   -----> Directorio
+Documents and Settings                  -----> Directorio
+DumpStack.log                           -----> 15582220288
+DumpStack.log.tmp                       -----> 15582220288
+hiberfil.sys                            -----> 15582220288
+install                                 -----> Directorio
+Intel                                   -----> Directorio
+MSOCache                                -----> Directorio
+MyLogrFile.log                          -----> 15582220288
+OneDriveTemp                            -----> Directorio
+pagefile.sys                            -----> 15582220288
+PerfLogs                                -----> Directorio
+Program Files                           -----> Directorio
+Program Files (x86)                     -----> Directorio
+ProgramData                             -----> Directorio
+Python311                               -----> Directorio
+Recovery                                -----> Directorio
+SQL2022                                 -----> Directorio
+swapfile.sys                            -----> 15582220288
+System Volume Information               -----> Directorio
+Users                                   -----> Directorio
+Win                                     -----> Directorio
+Windows                                 -----> Directorio
+Tue Nov 21 19:53:27 CET 2023
+$Recycle.Bin                            -----> Directorio
+$WinREAgent                             -----> Directorio
+acadminidump.dmp                        -----> 15689760768
+adobeTemp                               -----> Directorio
+android                                 -----> Directorio
+Archivos de programa                    -----> Directorio
+Autodesk                                -----> Directorio
+bootmgr                                 -----> 15689760768
+BOOTNXT                                 -----> 15689760768
+bootTel.dat                             -----> 15689760768
+composer                                -----> Directorio
+Config.Msi                              -----> Directorio
+datos                                   -----> Directorio
+Documents and Settings                  -----> Directorio
+DumpStack.log                           -----> 15689760768
+DumpStack.log.tmp                       -----> 15689760768
+hiberfil.sys                            -----> 15689760768
+install                                 -----> Directorio
+Intel                                   -----> Directorio
+MSOCache                                -----> Directorio
+MyLogrFile.log                          -----> 15689760768
+OneDriveTemp                            -----> Directorio
+pagefile.sys                            -----> 15689760768
+PerfLogs                                -----> Directorio
+Program Files                           -----> Directorio
+Program Files (x86)                     -----> Directorio
+ProgramData                             -----> Directorio
+Python311                               -----> Directorio
+Recovery                                -----> Directorio
+SQL2022                                 -----> Directorio
+swapfile.sys                            -----> 15689760768
+System Volume Information               -----> Directorio
+Users                                   -----> Directorio
+Win                                     -----> Directorio
+Windows                                 -----> Directorio
+Tue Nov 21 19:56:40 CET 2023
+$Recycle.Bin                            -----> Directorio
+$WinREAgent                             -----> Directorio
+acadminidump.dmp                        -----> 15688437760
+adobeTemp                               -----> Directorio
+android                                 -----> Directorio
+Archivos de programa                    -----> Directorio
+Autodesk                                -----> Directorio
+bootmgr                                 -----> 15688437760
+BOOTNXT                                 -----> 15688437760
+bootTel.dat                             -----> 15688437760
+composer                                -----> Directorio
+Config.Msi                              -----> Directorio
+datos                                   -----> Directorio
+Documents and Settings                  -----> Directorio
+DumpStack.log                           -----> 15688437760
+DumpStack.log.tmp                       -----> 15688437760
+hiberfil.sys                            -----> 15688437760
+install                                 -----> Directorio
+Intel                                   -----> Directorio
+MSOCache                                -----> Directorio
+MyLogrFile.log                          -----> 15688437760
+OneDriveTemp                            -----> Directorio
+pagefile.sys                            -----> 15688437760
+PerfLogs                                -----> Directorio
+Program Files                           -----> Directorio
+Program Files (x86)                     -----> Directorio
+ProgramData                             -----> Directorio
+Python311                               -----> Directorio
+Recovery                                -----> Directorio
+SQL2022                                 -----> Directorio
+swapfile.sys                            -----> 15688437760
+System Volume Information               -----> Directorio
+Users                                   -----> Directorio
+Win                                     -----> Directorio
+Windows                                 -----> Directorio
+Tue Nov 21 19:57:08 CET 2023
+$Recycle.Bin                            -----> Directorio
+$WinREAgent                             -----> Directorio
+acadminidump.dmp                        -----> 15686176768
+adobeTemp                               -----> Directorio
+android                                 -----> Directorio
+Archivos de programa                    -----> Directorio
+Autodesk                                -----> Directorio
+bootmgr                                 -----> 15686176768
+BOOTNXT                                 -----> 15686176768
+bootTel.dat                             -----> 15686176768
+composer                                -----> Directorio
+Config.Msi                              -----> Directorio
+datos                                   -----> Directorio
+Documents and Settings                  -----> Directorio
+DumpStack.log                           -----> 15686176768
+DumpStack.log.tmp                       -----> 15686176768
+hiberfil.sys                            -----> 15686176768
+install                                 -----> Directorio
+Intel                                   -----> Directorio
+MSOCache                                -----> Directorio
+MyLogrFile.log                          -----> 15686176768
+OneDriveTemp                            -----> Directorio
+pagefile.sys                            -----> 15686176768
+PerfLogs                                -----> Directorio
+Program Files                           -----> Directorio
+Program Files (x86)                     -----> Directorio
+ProgramData                             -----> Directorio
+Python311                               -----> Directorio
+Recovery                                -----> Directorio
+SQL2022                                 -----> Directorio
+swapfile.sys                            -----> 15686176768
+System Volume Information               -----> Directorio
+Users                                   -----> Directorio
+Win                                     -----> Directorio
+Windows                                 -----> Directorio

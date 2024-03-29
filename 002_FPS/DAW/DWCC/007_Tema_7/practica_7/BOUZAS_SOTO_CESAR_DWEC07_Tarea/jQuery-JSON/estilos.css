@@ -1,0 +1,17 @@
+table tr:nth-child(odd) {
+    width: fit-content;
+    background: #fff5e0;
+    color: blue;
+}
+
+table tr:nth-child(even) {
+    width: fit-content;
+    background: #d97223;
+    color: white
+}
+
+table {
+    width: fit-content;
+    border-collapse: collapse;
+    width: 100%;
+}

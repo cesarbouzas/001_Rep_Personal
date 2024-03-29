@@ -1,0 +1,2 @@
+Este es un ejmplo creado en la carpeta resources (".src/main/resouces")
+Un beso.

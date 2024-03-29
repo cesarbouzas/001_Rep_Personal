@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.0.final using JasperReports Library version 6.20.0-2bc7ab61c56f459e8176eb05c7705e145cd400ad  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="2_2_Articulos_vendios_grafico" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="176205f6-deb1-4fc0-8d21-411e21f25739">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="fabica"/>
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<queryString>
+		<![CDATA[select  a.id_articulo,Unidades,Descripcion from detalle_pedidos d ,articulos a where d.ID_articulo=a.id_articulo 
+GROUP by a.id_articulo]]>
+	</queryString>
+	<field name="id_articulo" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="Id_articulo"/>
+		<property name="com.jaspersoft.studio.field.label" value="id_articulo"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="articulos"/>
+	</field>
+	<field name="Unidades" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="Unidades"/>
+		<property name="com.jaspersoft.studio.field.label" value="Unidades"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="detalle_pedidos"/>
+	</field>
+	<field name="Descripcion" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="Descripcion"/>
+		<property name="com.jaspersoft.studio.field.label" value="Descripcion"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="articulos"/>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="40" splitType="Stretch">
+			<staticText>
+				<reportElement x="180" y="10" width="361" height="30" uuid="9a482085-3070-4225-8154-395c9e595b73"/>
+				<textElement textAlignment="Center">
+					<font size="22" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Detalle de ventas por articulo]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="40" splitType="Stretch">
+			<staticText>
+				<reportElement x="195" y="0" width="100" height="30" uuid="0c1c798d-f887-4dae-8806-562490f0140f">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="d82d0fa7-6401-4082-830a-1b9cdcd1acbc"/>
+				</reportElement>
+				<text><![CDATA[id_articulo]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="381" y="0" width="100" height="30" uuid="f3e8d122-2fb6-455a-9839-4e78827b56a6">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="4a609b0a-a217-4bbd-b9c1-3795e8e7ff3f"/>
+				</reportElement>
+				<text><![CDATA[Descripcion]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="30" splitType="Stretch">
+			<textField>
+				<reportElement x="195" y="0" width="100" height="30" uuid="19c179ae-fa57-4d62-af90-99f6c416038d">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="d82d0fa7-6401-4082-830a-1b9cdcd1acbc"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{id_articulo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="295" y="0" width="195" height="30" uuid="c3436f3a-ac24-41bf-9c2c-b650791896d2">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="4a609b0a-a217-4bbd-b9c1-3795e8e7ff3f"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Descripcion}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="500" y="0" width="100" height="30" uuid="3cc68c13-9812-4b3d-ac47-65c65d77cafb"/>
+				<textFieldExpression><![CDATA[$F{Unidades}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="140" splitType="Stretch">
+			<barChart>
+				<chart>
+					<reportElement stretchType="ContainerHeight" x="0" y="0" width="800" height="140" isPrintWhenDetailOverflows="true" uuid="6686b2de-7a26-437c-a990-17cb8be3e894"/>
+					<chartTitle/>
+					<chartSubtitle/>
+					<chartLegend/>
+				</chart>
+				<categoryDataset>
+					<dataset resetType="Column"/>
+					<categorySeries>
+						<seriesExpression><![CDATA[$F{id_articulo}]]></seriesExpression>
+						<categoryExpression><![CDATA[$F{Descripcion}]]></categoryExpression>
+						<valueExpression><![CDATA[$F{Unidades}]]></valueExpression>
+						<labelExpression><![CDATA[$F{Descripcion}]]></labelExpression>
+					</categorySeries>
+				</categoryDataset>
+				<barPlot>
+					<plot/>
+					<itemLabel/>
+					<categoryAxisFormat>
+						<axisFormat labelColor="#000000" tickLabelColor="#000000" axisLineColor="#000000"/>
+					</categoryAxisFormat>
+					<valueAxisFormat>
+						<axisFormat labelColor="#000000" tickLabelColor="#000000" axisLineColor="#000000"/>
+					</valueAxisFormat>
+				</barPlot>
+			</barChart>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

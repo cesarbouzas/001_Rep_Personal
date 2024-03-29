@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="new_game">Nuevo juego</string>
+    <string name="Gatos">Ayuda</string>
+    <string name="create_new">Nuevo</string>
+    <string name="open">Abrir</string>
+    <string name="archivo">Archivo</string>
+    <string name="txt_ejercicios">Prueba de ejercicios</string>
+</resources>

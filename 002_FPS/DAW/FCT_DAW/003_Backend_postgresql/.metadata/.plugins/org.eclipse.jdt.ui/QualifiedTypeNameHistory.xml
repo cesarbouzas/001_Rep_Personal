@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.ontimize.tunelPostgresqlApiRest.api.core.service.IPlantService"/>
+    <fullyQualifiedTypeName name="com.ontimize.tunelPostgresqlApiRest.model.core.dao.PlantDao"/>
+    <fullyQualifiedTypeName name="com.ontimize.tunelPostgresqlApiRest.model.core.dao.ConcreteFormulaDao"/>
+    <fullyQualifiedTypeName name="com.ontimize.tunelPostgresqlApiRest.api.core.service.IConcreteFormulaService"/>
+    <fullyQualifiedTypeName name="com.ontimize.tunelPostgresqlApiRest.model.core.dao.ContactDao"/>
+    <fullyQualifiedTypeName name="com.ontimize.tunelPostgresqlApiRest.api.core.service.IMaterialService"/>
+    <fullyQualifiedTypeName name="com.ontimize.tunelPostgresqlApiRest.api.core.service.IContactsService"/>
+    <fullyQualifiedTypeName name="com.ontimize.tunelPostgresqlApiRest.model.core.dao.CategoryDao"/>
+    <fullyQualifiedTypeName name="com.ontimize.tunelPostgresqlApiRest.ws.core.rest.CategoryRestController"/>
+    <fullyQualifiedTypeName name="com.ontimize.tunelPostgresqlApiRest.api.core.service.ICategoryService"/>
+</qualifiedTypeNameHistroy>

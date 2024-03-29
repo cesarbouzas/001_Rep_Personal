@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itemGatos"
+        android:title="Gatos" >
+        <menu>
+            <item
+                android:id="@+id/itemGatos1"
+                android:title="alimentacion"/>
+            <item
+                android:id="@+id/itemGatos2"
+                android:title="cuidados en casa"/>
+            <item
+                android:id="@+id/itemGatos3"
+                android:title="vacunas"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/itemPerros"
+        android:title="Perros" />
+</menu>

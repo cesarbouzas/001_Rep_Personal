@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">3_3_ListView_adaptador_String</string>
+    <string name="tv_contactos">Listado de contactos</string>
+</resources>
