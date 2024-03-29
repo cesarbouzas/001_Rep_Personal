@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;3-Spring_MVC_tomcat9/src/main/WebContent/Recursos/Imgs/andreswaals.jpg&apos; to &apos;a.jpg&apos;" description="Rename resource &apos;andreswaals.jpg&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/WebContent/Recursos/Imgs/andreswaals.jpg" name="a.jpg" stamp="1696614981969" updateReferences="true"/>
+</session>

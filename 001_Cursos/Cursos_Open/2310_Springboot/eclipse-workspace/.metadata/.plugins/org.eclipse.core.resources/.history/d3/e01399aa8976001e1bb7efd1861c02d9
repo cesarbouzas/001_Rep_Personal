@@ -1,0 +1,13 @@
+package es.cesar.beans;
+
+public class Saludo {
+	
+	private String msg="Hola cesar";
+	
+	public Saludo() {};
+	
+	public String getMsg() {
+		return msg;
+	}
+
+}

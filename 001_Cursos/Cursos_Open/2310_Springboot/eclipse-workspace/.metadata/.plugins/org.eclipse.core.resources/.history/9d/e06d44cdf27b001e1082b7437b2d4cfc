@@ -1,0 +1,9 @@
+package es.cesar.utils;
+
+public class lectorArchivos {
+	
+	public list<Persona>leerArchivoNombres(){
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+package es.cesar.dao;
+
+import java.util.List;
+
+import es.cesar.model.Film;
+
+public class UtilFilmReader {
+	
+	public static List<Film> fileReader(String path,String separadorCSV,String separadorCategorias){
+	List<Film> resultado=null;
+	
+	return resultado;
+}
+}

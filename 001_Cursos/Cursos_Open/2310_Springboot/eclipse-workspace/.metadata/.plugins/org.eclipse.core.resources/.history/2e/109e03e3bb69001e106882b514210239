@@ -1,0 +1,29 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>  
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Formulario Proyectos</title>
+<link rel="stylesheet" type="text/css" href="/TypsaGram/src/main/webapp/WEB-INF/recursos/estilos/typsa.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulario de Proyecto</h1>
+        
+        <form:form method="post" action="proyecto">
+            <label for="nombre">Nombre del Proyecto:</label>
+            <form:input path="nombre" required="true"/>
+
+            <label for="organismo">Organismo:</label>
+            <form:input path="organismo" required="true"/>
+
+            <label for="descripcion">Descripción del Proyecto:</label>
+            <form:textarea path="descripcion" required="true"/>
+
+            <button type="submit">Guardar</button>
+        </form:form>
+    </div>
+</body>
+</html>

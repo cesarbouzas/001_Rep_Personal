@@ -1,0 +1,15 @@
+package es.cesar;
+
+import org.springframework.stereotype.Component;
+
+@Component
+@
+public class MovieAdvisorHelp {
+	private String help;
+	
+	public getHelp(
+			return help;
+			)
+	
+
+}

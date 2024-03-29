@@ -1,0 +1,19 @@
+package es.cesar.list;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import es.cesar.Dao.Persona;
+
+public class ArrayListDemo {
+	
+	public static void main(String args[]) {
+		
+		
+		 Persona p1=new Persona("Cesar","Bouzas","Soto","34896415x","1977");
+		 Persona p2
+		List<Persona> clase=new ArrayList<>();
+		clase.
+	}
+
+}

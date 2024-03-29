@@ -1,0 +1,17 @@
+package es.cesar.config;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
+
+@Configuration
+@ComponentScan(basePackages="es.cesar")
+@PropertySource("classpath:/app.properties")
+public class AppConfig {
+	
+	@Value("${file.path}")
+	private String file;
+	private String csvSeparador;
+	private String listSeparador;
+
+}

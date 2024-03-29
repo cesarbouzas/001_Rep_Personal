@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\Usuario\Desktop\html_public\Cursos_Open\2402_SpringBoot_Angular\backend\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+491250661.index
+1791766524.index
+1965174767.index
+4281533652.index
+1199039409.index
+2734575401.index

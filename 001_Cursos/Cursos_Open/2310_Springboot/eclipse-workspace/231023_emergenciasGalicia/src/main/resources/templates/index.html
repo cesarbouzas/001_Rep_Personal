@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Mi Primera Página</title>
+</head>
+<body>
+    <h1 th:text="${titulo}"></h1>
+    <ul>
+	<li th:each ="elem :${apartados}">
+    <a th:href="${elem}">[[${elem}]]</a>
+	</li>
+    </ul>
+</body>
+</html>

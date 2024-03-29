@@ -1,0 +1,43 @@
+package es.cesar.dao;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+
+import es.cesar.model.Film;
+
+public class FilmDaoImplMemory implements FilmDao {
+	
+	public List<Film> peliculas=new ArrayList<>();
+
+	@Override
+	public Film findByid(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Collection<Film> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void insertarFilm(Film film) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void editarFil(Film film) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void borrar(long id) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

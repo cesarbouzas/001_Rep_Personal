@@ -1,0 +1,14 @@
+package es.cesar.dao;
+
+import java.util.List;
+
+import es.cesar.model.Film;
+
+public interface FilmDao {
+	
+	public List<Film> listarTodasPeliculas();
+	public List<Film> listarPeliculasID(Long id);
+	
+	
+
+}

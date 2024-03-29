@@ -1,0 +1,10 @@
+package es.cesar.service;
+
+public interface FilmQueryService {
+	
+	//patron builder
+	
+	public Collection<Film> exec();
+	
+
+}

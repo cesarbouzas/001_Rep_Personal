@@ -1,0 +1,17 @@
+package es.cesar;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class MovieAdvisorRunApp {
+	
+	@Autowired
+	FilmService filmService;
+	FilQueryService filmQueryService;
+
+	public void run(String[] args) {
+		
+		
+		
+	}
+}

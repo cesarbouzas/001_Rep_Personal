@@ -1,0 +1,12 @@
+package es.cesar.list;
+
+public class ArrayListDemo {
+	
+	public static void main(String args[]) {
+		
+		
+		
+		List<Persona> clase=new ArrayList<>();
+	}
+
+}

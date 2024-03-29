@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">10_vuelta_android</string>
+    <string name="edit_message">Escribe tu mensaje</string>
+    <string name="enviar_mensaje">Envia mensaje</string>
+</resources>

@@ -1,0 +1,22 @@
+package es.cesar;
+
+
+import java.sql.Date;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+
+@Entity
+public class Arduino {
+		@Id
+	 
+
+	    private String ard_Id; // Cambiado a "ard_Id" para coincidir con el objeto JSON
+	    private Date ard_Datetime;
+	    private Float ard_Dist;
+    
+
+
+}

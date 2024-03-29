@@ -1,0 +1,50 @@
+.categoria {
+    border: 1px solid #cccccc;
+    height: 300px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.menu {
+    background-color: #00acc9;
+}
+
+.selected {
+    background-color: #cfd8dc !important;
+    color: white;
+}
+
+.categorias {
+    margin-left: -40px;
+    list-style-type: none;
+    min-width: 100px;
+}
+
+.categorias li {
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    background-color: #EEE;
+    margin: .5em;
+    padding: 0.3em 0;
+    height: 2.0em;
+    border-radius: 4px;
+}
+
+.categorias li.selected:hover {
+    background-color: #bbd8dc !important;
+    color: white;
+    left: 0.3em;
+}
+
+.categorias li:hover {
+    color: #607d8b;
+    background-color: #ddd;
+    left: 0.1em;
+}
+
+.categorias .text {
+    position: relative;
+    top: -3px;
+    text-align: center;
+}

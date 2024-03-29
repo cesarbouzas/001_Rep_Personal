@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+
+</head>
+<body>
+<h1>Hola ${param.nombre}</h1> 
+<h2>valiente hijo de puta!!!</h2>
+<h3>Bienvenido al curso de Spring!!!</h3>
+<br>${mensaje}
+<br> 
+<img alt="password" src="${pageContext.request.contextPath}/Recursos/Imgs/a.jpg">
+
+
+
+
+
+<a href="paginaEjemplo">Volver al incio</a>
+
+</body>
+</html>

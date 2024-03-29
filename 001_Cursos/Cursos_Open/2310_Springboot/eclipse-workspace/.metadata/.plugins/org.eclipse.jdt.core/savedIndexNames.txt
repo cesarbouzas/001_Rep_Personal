@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+C:\Users\Usuario\Desktop\html_public\Cursos_Open\2310_Springboot\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core
+3676231258.index
+1865797976.index
+930367292.index
+461808261.index

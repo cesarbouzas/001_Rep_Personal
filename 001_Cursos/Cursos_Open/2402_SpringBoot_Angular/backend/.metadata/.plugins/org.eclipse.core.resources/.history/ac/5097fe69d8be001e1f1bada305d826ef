@@ -1,0 +1,8 @@
+package es.cesar;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Arduino {
+
+}

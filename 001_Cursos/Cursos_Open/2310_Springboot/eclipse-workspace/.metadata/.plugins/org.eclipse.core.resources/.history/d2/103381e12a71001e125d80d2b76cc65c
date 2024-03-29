@@ -1,0 +1,36 @@
+package com.example.spring.controladores;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class ControladorPrincipal {
+	
+	@RequestMapping("/")
+	public String paginaPrincipal(Model modelo) {
+		modelo.addAttribute("lote1","/Lote1");
+		modelo.addAttribute("lote2","/Lote2");
+		modelo.addAttribute("lote3","/lote3");
+		return ("index");
+	}
+	@RequestMapping("/Lote1")
+	public String paginaLote1(Model modelo) {
+		modelo.addAttribute("Empresa","Comsa");
+		return ("lote1");
+	}
+	@RequestMapping("/lote2")
+	public String paginaLote2(Model modelo) {
+		modelo.addAttribute("Empresa","Cosfesa");
+		return ("lote2");
+	}
+	@RequestMapping("/lote3")
+	public String paginaLote3(Model modelo) {
+		modelo.addAttribute("Empresa","CivisGlobal");
+		return ("lote3");
+	}
+	
+	
+	
+
+}

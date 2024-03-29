@@ -1,0 +1,9 @@
+dep_id    dep_nombre                    dep_localizacion
+1         Aguas                         DTG       
+2         Supervision de Obras          DTG       
+3         Seguridad y salud             DTG       
+4         Topografia                    DTG       
+5         Topografia2                   DTG       
+6         Topografia2                   DTG       
+7         Topografia2                   DTG       
+8         Topografia64                  DTG       

@@ -1,0 +1,18 @@
+package es.cesar.dao;
+
+import java.util.Collection;
+
+import es.cesar.model.Film;
+
+public interface FilmDao {
+	
+	
+	public Film findByid(Long id);
+	public Collection<Film> findAll();
+	public void insertarFilm(Film pelicula);
+	public void editarFil(Film pelicula);
+	public void borrar(long id);
+	
+	
+
+}

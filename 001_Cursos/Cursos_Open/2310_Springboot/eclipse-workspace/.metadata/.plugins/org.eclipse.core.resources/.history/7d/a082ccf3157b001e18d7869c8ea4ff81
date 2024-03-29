@@ -1,0 +1,3 @@
+file.path=ClassPath:imdb_data.csv
+file.csv.separador=;
+file.csv.list_separador=,

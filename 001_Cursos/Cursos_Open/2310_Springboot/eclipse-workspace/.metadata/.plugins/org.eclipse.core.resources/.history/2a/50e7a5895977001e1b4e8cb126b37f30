@@ -1,0 +1,9 @@
+package es.cesar.beans;
+
+public class Emailservice {
+
+	private Saludo saludator;
+	
+	public Emailservice() {};
+	
+}

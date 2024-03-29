@@ -1,0 +1,32 @@
+package es.cesar;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.FileSystemXmlApplicationContext;
+
+import es.cesar.beans.Saludo;
+
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		
+		ApplicationContext appContext=new FileSystemXmlApplicationContext("beans02.xml");
+		
+		//Varios metodos para obtener el bean
+		//1 mediante ID
+		Saludo saludoID=null;
+		Saludo saludoClass=null;
+		Saludo saludoIDClass=null;
+		saludoID=(Saludo) appContext.getBean("saludador");
+		saludoClass=(Saludo)appContext.getBean(Saludo.class);
+		saludoIDClass=(Saludo)appContext.getBean("saludador",Saludo.class);
+		System.out.println((saludo.getMsg()+".").toUpperCase());
+		saludo.setMsg("Hola hijos de puta.");
+		System.out.println(saludo3.getMsg());
+		
+		((FileSystemXmlApplicationContext)appContext).close();
+
+	}
+
+}

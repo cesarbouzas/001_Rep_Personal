@@ -1,0 +1,6 @@
+CREATE DATABASE ejemplo;
+SELECT ejemplo;
+CREATE TABLE departamentos(dep_id INT PRIMARY KEY,dep_nombre VARCHAR(255),dep_Localizacion VARCHAR(255));
+ALTER TABLE departamentos MODIFY COLUMN  dep_id INT AUTO_INCREMENT;
+INSERT INTO departamentos(dep_nombre,dep_localizacion) values ('Aguas','DTG'),('Supervision de obras','DTG'),('Seguridad y Salud','DTG');
+ALTER TABLE departamentos rename Column dep_Localizacion TO dep_localizacion;

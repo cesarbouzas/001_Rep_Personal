@@ -1,0 +1,16 @@
+package es.cesar;
+
+
+import java.sql.Date;
+
+import jakarta.persistence.Entity;
+
+@Entity
+public class Arduino {
+    
+    private String id;
+    private Date fecha;
+    private float distancia;
+
+    // Constructor, getters y setters...
+}

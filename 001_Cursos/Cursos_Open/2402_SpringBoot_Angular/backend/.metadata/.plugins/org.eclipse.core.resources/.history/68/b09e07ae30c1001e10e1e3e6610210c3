@@ -1,0 +1,44 @@
+package es.cesar;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+
+@RestController
+@RequestMapping("/api/distancias")
+public class ArduinoController {
+
+    private final ArduinoService arduinoService;
+
+    @Autowired
+    public ArduinoController(ArduinoService arduinoService) {
+        this.arduinoService = arduinoService;
+    }
+
+    @GetMapping
+    public List<Arduino> getAllArduino() {
+        return arduinoService.getAllArduino();
+    }
+
+    @GetMapping("/{id}")
+    public Arduino getArduinoById(@PathVariable Long id) {
+        return arduinoService.getArduinoById(id)
+                .orElse(null); // Handle not found case
+    }
+
+    @PostMapping
+    public Arduino createArduino(@RequestBody Arduino arduino) {
+        return arduinoService.createArduino(arduino);
+    }
+
+    @PutMapping("/{id}")
+    public Arduino updateArduino(@PathVariable Long id, @RequestBody Arduino updatedArduino) {
+        return null;
+    }
+
+    @DeleteMapping("/{id}")
+    public void deleteArduino(@PathVariable Long id) {
+        arduinoService.deleteArduino(id);
+    }
+}

@@ -1,0 +1,5 @@
+package es.cesar;
+
+public interface ArduinoRepository extends JpaRepository<Arduino,long> {
+
+}

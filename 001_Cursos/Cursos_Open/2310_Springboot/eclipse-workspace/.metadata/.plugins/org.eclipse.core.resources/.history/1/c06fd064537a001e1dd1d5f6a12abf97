@@ -1,0 +1,23 @@
+package es.cesar.dao;
+
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.util.ResourceUtils;
+
+import es.cesar.model.Film;
+
+public class UtilFilmReader {
+	
+	public static List<Film> fileReader(String path,String separadorCSV,String separadorCategorias){
+	List<Film> resultado=new ArrayList<>();
+	//// @formatter:off
+		Files.lines(Paths.get(ResourceUtils.getFile( path).toURI()));
+	// @formatter:on
+
+	
+	return resultado;
+}
+}

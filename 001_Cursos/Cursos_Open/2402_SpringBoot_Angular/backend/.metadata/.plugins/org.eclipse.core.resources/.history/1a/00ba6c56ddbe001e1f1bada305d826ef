@@ -1,0 +1,35 @@
+package es.cesar;
+
+
+import java.sql.Date;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
+public class Arduino {
+    @Id
+    private String id;
+    private Date fecha;
+    private float distancia;
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
+	}
+	public Date getFecha() {
+		return fecha;
+	}
+	public void setFecha(Date fecha) {
+		this.fecha = fecha;
+	}
+	public float getDistancia() {
+		return distancia;
+	}
+	public void setDistancia(float distancia) {
+		this.distancia = distancia;
+	}
+	
+
+}

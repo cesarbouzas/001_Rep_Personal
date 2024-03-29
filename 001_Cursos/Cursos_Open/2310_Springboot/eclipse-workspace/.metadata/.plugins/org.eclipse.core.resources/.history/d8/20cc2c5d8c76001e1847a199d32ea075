@@ -1,0 +1,22 @@
+package es.cesar;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.context.support.FileSystemXmlApplicationContext;
+
+import es.cesar.beans.Saludo;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		
+		ApplicationContext appContext=new FileSystemXmlApplicationContext("beans02.xml");
+		
+	appContext.getBean("saludador");
+		
+		((FileSystemXmlApplicationContext)appContext).close();
+
+	}
+
+}

@@ -1,0 +1,61 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>  
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Formulario Proyectos</title>
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/recursos/estilos/typsa.css">
+</head>
+<body>
+    <div class="container">
+    <div >
+        <h2> <img width="100" height="100" src="https://www.typsa.com/wp-content/uploads/logo-grupo-Typsa-300x300-1.png" >Formulario de Proyecto</h2>      
+    </div>    
+        <form:form  modelAttribute="proyecto" action="proyectoDetalles">
+            <label for="nombre">Nombre del Proyecto:</label>
+            <form:input path="nombre" required="true"/>
+			<br><br><br>
+            <label for="organismo">Organismo:</label>
+            <form:select path="organismo">
+            <form:option value="Adif" label="Adif"></form:option>
+            <form:option value="Xunta" label="Xunta"></form:option>
+            <form:option value="Aguas de Galicia" label="Aguas de Galicia"></form:option>
+            <form:option value="Taboada y Ramos" label="Tyr"></form:option>
+            </form:select>
+			<br><br><br>
+            <label for="descripcion">Descripción del Proyecto:</label>
+            <form:textarea path="descripcion" required="true"/>
+			<br><br><br>
+			<img src="${pageContext.request.contextPath}/recursos/imagenes/parking.jpg" alt="foto" usemap="#imgmap20231020211423" id="imagen1" >
+			<map id="imgmap20231020211423" name="imgmap20231020211423">
+			<area class="libre" shape="rect" alt="plaza1" title="Plaza1" coords="114px,245px,128px,276px" href="1" target="iframe1" />
+			<area shape="rect" alt="" title="" coords="128,245,142,276" href="" target="" />
+			<area shape="rect" alt="" title="" coords="142,245,155,275" href="" target="" />
+			<area shape="rect" alt="" title="" coords="156,244,169,275" href="" target="" />
+			</map>
+			<br><br><br>
+			
+			<div>
+<svg >
+<path d="M2.26 133.31L158.02 127.83M158.02 127.83L170.73 488.78M170.73 488.78L14.98 494.26M14.98 494.26L2.26 133.31"
+fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M158.02 127.83L307.78 122.55M307.78 122.55L320.49 483.5M320.49 483.5L170.73 488.78M170.73 488.78L158.02 127.83"
+fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M307.78 122.55L463.53 117.06M463.53 117.06L476.25 478.01M476.25 478.01L320.49 483.5M320.49 483.5L307.78 122.55"
+fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M463.53 117.06L627.27 111.3M627.27 111.3L639.99 472.24M639.99 472.24L476.25 478.01M476.25 478.01L463.53 117.06"
+fill="none" stroke="black" stroke-width="0.5"/>
+<path d="M627.27 111.3L785.02 105.74M785.02 105.74L797.74 466.69M797.74 466.69L639.99 472.24M639.99 472.24L627.27 111.3"
+fill="none" stroke="black" stroke-width="0.5"/>
+</svg>
+			</div>
+			
+			
+			
+            <button type="submit">Guardar</button>
+        </form:form>
+        </div>
+</body>
+</html>

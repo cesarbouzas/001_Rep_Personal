@@ -1,0 +1,5 @@
+package es.cesar.Dao;
+
+public interface Persona {
+
+}

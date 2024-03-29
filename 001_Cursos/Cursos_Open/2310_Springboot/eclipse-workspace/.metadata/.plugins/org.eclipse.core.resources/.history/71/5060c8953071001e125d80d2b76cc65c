@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html  xmlns:th="http://www.thymeleaf.org">
+	 <link rel="stylesheet" th:href="@{/css/style.css}">
+<head>
+<meta charset="ISO-8859-1">
+<title>Emergencias Galicia</title>
+</head>
+<body
+<div>
+<ul>
+        <li th:each="item : ${elementosMenu}">
+			 
+            <a th:if="${item}=="Lotes">
+            Lotes
+            <li href="/lote1">Lote1</li>
+            <li href="/lote2">Lote2</li>
+            <li href>"/lote3">Lote3</li>
+            </a> 
+             th:href="@{'/' + ${item}}">[[${item}]]</a>
+        </li>
+</ul>
+</div>
+<script src="/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+package es.cesar;
+
+@Component
+public class MovieAdvisorHelp {
+
+}

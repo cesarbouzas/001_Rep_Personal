@@ -1,0 +1,14 @@
+package es.cesar;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+public class movieAdvisorApp {
+
+	public static void main(String[] args) {
+	
+		ApplicationContext appContext=new AnnotationConfigApplicationContext(es.cesar.config.AppConfig)
+
+	}
+
+}

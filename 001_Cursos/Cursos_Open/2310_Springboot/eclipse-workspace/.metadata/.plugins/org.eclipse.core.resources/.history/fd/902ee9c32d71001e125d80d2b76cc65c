@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html  xmlns:th="http://www.thymeleaf.org">
+	 <link rel="stylesheet" type="text/css" href="styles.css">
+<head>
+<meta charset="ISO-8859-1">
+<title>Emergencias Galicia</title>
+</head>
+<body
+<div>
+<ul>
+        <li th:each="item : ${elementosMenu}">
+            <a th:href="@{'/' + ${item}}">[[${item}]]</a>
+        </li>
+</ul>
+</div>
+<script src="/src/main/resources/static/styles.css"></script>
+</body>
+</html>

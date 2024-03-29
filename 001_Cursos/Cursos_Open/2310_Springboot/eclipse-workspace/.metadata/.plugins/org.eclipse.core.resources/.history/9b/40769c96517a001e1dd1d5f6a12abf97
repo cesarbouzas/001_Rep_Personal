@@ -1,0 +1,8 @@
+package es.cesar.config;
+
+
+@Configuration
+@ComponentScan(es.cesar)
+public class AppConfig {
+
+}

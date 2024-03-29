@@ -1,0 +1,47 @@
+package es.cesar.service;
+
+import java.util.Collection;
+
+import org.springframework.stereotype.Service;
+
+import es.cesar.model.Film;
+@Service
+public class FilmQueryServiceImpl implements FilmQueryService {
+	private FilmDao dao; 
+	@Override
+	public Collection<Film> exec() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public FilmQueryService anyGenre(String... genres) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public FilmQueryService allGenres(String... genres) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public FilmQueryService year(String year) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public FilmQueryService betweenYear(String from, String to) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public FilmQueryService titleContains(String title) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

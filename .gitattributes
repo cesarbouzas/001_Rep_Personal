@@ -1,3 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=false
+*.js text eol=lf
+*.json text eol=lf
 node_modules/* -text

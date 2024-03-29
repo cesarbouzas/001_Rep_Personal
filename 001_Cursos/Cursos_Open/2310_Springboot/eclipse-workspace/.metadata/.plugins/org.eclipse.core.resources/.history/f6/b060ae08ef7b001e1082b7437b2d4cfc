@@ -1,0 +1,12 @@
+package es.cesar.Dao;
+
+public class Persona {
+	private String name;
+	private String firsName;
+	private String lastName;
+	private String dni;
+	private String bornYear;
+	
+	
+
+}

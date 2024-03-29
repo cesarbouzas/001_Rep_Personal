@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Lote1</title>
+</head>
+<body>
+<h1>Esta es la pagina del Lote 1</h1>
+<h2 th:text="${empresa}"></h2>
+
+</body>
+</html>

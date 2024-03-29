@@ -1,0 +1,43 @@
+package es.cesar;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+import java.util.Optional;
+	@Service
+	public class ArduinoService {
+
+	    private final ArduinoRepository arduinoRepository;
+
+	    @Autowired
+	    public ArduinoService(ArduinoRepository arduinoRepository) {
+	        this.arduinoRepository = arduinoRepository;
+	    }
+
+	    public List<Arduino> getAllArduino() {
+	        return arduinoRepository.findAll();
+	    }
+
+	    public Optional<Arduino> getArduinoById(Long id) {
+	        return arduinoRepository.findById(id);
+	    }
+
+	    public Arduino createArduino(Arduino arduino) {
+	        return arduinoRepository.save(arduino);
+	    }
+
+	    public Arduino updateArduino(Long id, Arduino updatedArduino) {
+	        if (arduinoRepository.existsById(id)) {
+	            updatedArduino.setId(id);
+	            return arduinoRepository.save(updatedArduino);
+	        }
+	        return null;
+	    }
+
+	    public void deleteArduino(Long id) {
+	        arduinoRepository.deleteById(id);
+	    }
+	}
+
+

@@ -1,0 +1,36 @@
+
+@charset "UTF-8";
+
+
+#marca{position:absolute; font-size:30pt; color:red}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+h2,img{
+display:inline-block;
+}
+
+button {
+    background-color: #0078D7;
+    color: rgb(255, 0, 0);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056a8;
+}
+area.libre{color: green;}
+area.ocupada{background-color:red;}
+area.reservada{background-color: orange;}
+area:hover{background-color: magenta;}

@@ -1,0 +1,7 @@
+# DataSource settings: MySQL
+spring.datasource.url=jdbc:mysql://217.160.229.64:3306/distancias
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.datasource.username=cesar
+spring.datasource.password=cesar
+
+

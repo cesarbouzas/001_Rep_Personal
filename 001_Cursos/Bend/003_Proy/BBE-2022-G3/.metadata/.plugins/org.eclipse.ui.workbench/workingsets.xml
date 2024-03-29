@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1658566100386_0" label="Java Main Sources" name="Java Main Sources"/>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1658566100414_1" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1658566494026_3" label="atomicHotelsApiRest" name="atomicHotelsApiRest">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/atomicHotelsApiRest-api" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/atomicHotelsApiRest-model" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/atomicHotelsApiRest-ws" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/atomicHotelsApiRest-boot" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1658566104295_2" label="Window Working Set" name="Aggregate for window 1658566104295"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1661498681610_4" label="Window Working Set" name="Aggregate for window 1661498681610"/>
+</workingSetManager>

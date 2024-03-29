@@ -1,0 +1,8 @@
+package es.cesar.Dao;
+
+public interface Persona {
+	private String name;
+	private String dni;
+	
+
+}

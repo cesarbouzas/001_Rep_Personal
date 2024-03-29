@@ -1,0 +1,5 @@
+package es.cesar.service;
+
+public class FilmQueryServiceImpl implements FilmQueryService {
+
+}

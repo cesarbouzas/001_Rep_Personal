@@ -1,0 +1,14 @@
+package es.cesar;
+
+
+import java.sql.Date;
+
+@Entity
+public class Arduino {
+    @Id
+    private String id;
+    private Date fecha;
+    private float distancia;
+
+    // Constructor, getters y setters...
+}

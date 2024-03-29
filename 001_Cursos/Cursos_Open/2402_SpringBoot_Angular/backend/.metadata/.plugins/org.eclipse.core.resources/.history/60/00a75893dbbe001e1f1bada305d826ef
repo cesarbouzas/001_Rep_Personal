@@ -1,0 +1,11 @@
+package es.cesar;
+
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+@Repository
+
+public interface ArduinoRepository extends JpaRepository<Arduino, Long> {
+
+
+}

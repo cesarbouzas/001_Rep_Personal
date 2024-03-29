@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">10_clase_anonima</string>
+    <string name="textoinsert">Introduce el texto aquí</string>
+    <string name="button_send">Enviar</string>
+</resources>

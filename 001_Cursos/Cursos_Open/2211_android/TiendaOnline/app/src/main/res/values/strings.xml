@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tienda Online</string>
+    <string name="password">Código cliente</string>
+    <string name="entrar">Entrar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

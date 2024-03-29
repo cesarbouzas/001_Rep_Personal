@@ -1,0 +1,21 @@
+<div class="container-fluid">
+    <div class="row datospersonales">
+        <div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 col-xl-3 nombre">Nombre {{nombre}}</div>
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 apellidos">Apellidos :{{apellidos}}</div>
+        <div class="col-xs-2 col-sm-2 col-md-3 col-lg-3 col-xl-3 edad">
+            {{ ((edad/(1000*60*60*24*365))
+            <18)? "Es menor de edad": "Es mayor de edad"}} </div>
+
+        </div>
+
+        <div class="row empresa">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 empresa">Empresa :{{empresa.value}}</div>"
+        </div>
+        <div class="row entrada">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 empresa">
+                <input type="text" #empresa (keyup)="0" [disabled]="disambledInput">
+            </div>
+        </div>
+        <input type="checkbox" id="registro" [checked]="usarioRegistrado"> {{getRegistroUsario()}}
+
+    </div>

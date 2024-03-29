@@ -1,0 +1,6 @@
+package es.cesar;
+
+
+public record Arduino(String id,Date fecha,float distancia)  {
+
+}

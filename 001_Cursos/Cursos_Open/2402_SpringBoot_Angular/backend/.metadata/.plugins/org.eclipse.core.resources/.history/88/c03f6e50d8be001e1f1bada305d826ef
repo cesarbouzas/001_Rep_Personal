@@ -1,0 +1,6 @@
+package es.cesar;
+
+@Entity
+public class Arduino {
+
+}

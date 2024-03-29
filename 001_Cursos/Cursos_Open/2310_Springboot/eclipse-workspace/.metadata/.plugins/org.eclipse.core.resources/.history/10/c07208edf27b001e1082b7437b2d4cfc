@@ -1,0 +1,15 @@
+package es.cesar.utils;
+
+import java.util.List;
+
+import es.cesar.Dao.Persona;
+
+public class lectorArchivos {
+	
+	public List<Persona> leerArchivoNombres(){
+		List<Personas> result=new ArrayList<>;
+		
+		
+	}
+
+}

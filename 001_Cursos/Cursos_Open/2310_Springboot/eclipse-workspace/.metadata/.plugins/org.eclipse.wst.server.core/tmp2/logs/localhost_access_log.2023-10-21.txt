@@ -1,0 +1,8 @@
+127.0.0.1 - - [21/Oct/2023:10:50:36 +0200] "GET / HTTP/1.1" 404 687
+0:0:0:0:0:0:0:1 - - [21/Oct/2023:10:50:46 +0200] "GET /TipsaGram/ HTTP/1.1" 200 2803
+0:0:0:0:0:0:0:1 - - [21/Oct/2023:10:50:46 +0200] "GET /TipsaGram/recursos/estilos/typsa.css HTTP/1.1" 200 630
+0:0:0:0:0:0:0:1 - - [21/Oct/2023:10:50:46 +0200] "GET /TipsaGram/recursos/imagenes/parking.jpg HTTP/1.1" 200 116365
+0:0:0:0:0:0:0:1 - - [21/Oct/2023:10:50:54 +0200] "GET /TipsaGram/1 HTTP/1.1" 200 314
+0:0:0:0:0:0:0:1 - - [21/Oct/2023:10:50:54 +0200] "GET /TipsaGram/recursos/imagenes/plaza1.png HTTP/1.1" 200 602951
+0:0:0:0:0:0:0:1 - - [21/Oct/2023:10:51:01 +0200] "GET /TipsaGram/ HTTP/1.1" 200 2803
+0:0:0:0:0:0:0:1 - - [21/Oct/2023:10:51:03 +0200] "GET /TipsaGram/1 HTTP/1.1" 200 314
