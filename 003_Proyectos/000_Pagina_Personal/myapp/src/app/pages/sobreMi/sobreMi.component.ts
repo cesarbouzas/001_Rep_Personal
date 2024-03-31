@@ -10,4 +10,9 @@ import {  Component } from '@angular/core';
   styleUrl: './sobreMi.component.css'
 
 })
-export class SobreMiComponent { }
+export class SobreMiComponent {
+ pdfUrl="../../../assets/pdf/240329_CV_cesar_bouzas.pdf";
+dowlodaCV() {
+window.open(this.pdfUrl,"_blank");
+}
+}
