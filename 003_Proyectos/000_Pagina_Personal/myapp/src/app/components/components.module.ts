@@ -3,12 +3,14 @@ import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { AppRoutingModule } from '../app-routing.module';
 import { TunelMapComponent } from './tunelmap/tunelmap.component';
+import { OficinaMapComponent } from './oficinamap/oficinamap.component';
 
 @NgModule({
 declarations:[
   FooterComponent,
   HeaderComponent,
   TunelMapComponent,
+  OficinaMapComponent
 ],
 imports:[
   AppRoutingModule
@@ -17,7 +19,8 @@ imports:[
 exports:[
 FooterComponent,
 HeaderComponent,
-TunelMapComponent
+TunelMapComponent,
+OficinaMapComponent
 
 ]
 })

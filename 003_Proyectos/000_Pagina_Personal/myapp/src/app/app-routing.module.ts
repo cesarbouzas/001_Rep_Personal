@@ -8,10 +8,15 @@ import { IotComponent } from './pages/iot/iot.component';
 
 
 const routes: Routes = [
-  {path:'sobreMi',component:SobreMiComponent},
+
+
+  {path:'construccion',component:NotFoundComponent},
+  {path:'estudios',component:NotFoundComponent},
   {path:'iot',component:IotComponent},
-  {path:'',component:NotFoundComponent},
-  {path: '***', component:NotFoundComponent}
+  {path:'zonaB',component:NotFoundComponent},
+  {path:'sobreMi',component:SobreMiComponent},
+  {path:'',component:SobreMiComponent},
+  {path: '**', component:NotFoundComponent}
 ];
 
 @NgModule({
